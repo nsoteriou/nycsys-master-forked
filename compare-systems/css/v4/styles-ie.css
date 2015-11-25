@@ -1,0 +1,29 @@
+/****
+Author: Christian Moist
+Copyright 2009 MCM Electronics
+****/
+input.submit, input.submit-grn                        {padding: 2px 4px;}
+a                                                     {color: #3d3d3d;}
+
+/**** layout styles ****/
+#header #search-bar                                   {background: transparent url('/images/v4/ie/bar-sprite.gif') no-repeat 0 0; border: none; padding-top: 16px; padding-bottom: 12px;}
+#header #search-bar-mini                              {background: transparent url('/images/v4/ie/bar-sprite.gif') no-repeat 0 -52px; border: none; padding-top: 16px; padding-bottom: 12px; padding-right: 2px; width: 677px;}
+#footer #footer-head                                  {background: transparent url('/images/v4/ie/bar-sprite.gif') no-repeat 0 -174px; border: none; height: 29px;}
+.body .header-bg                                      {background: transparent url('/images/v4/ie/bar-sprite.gif') no-repeat 0 -104px;}
+#product-page #info-column #img-desc                  {background-image: none; border-bottom: 1px solid #CCC;}
+.attribute-bar                                        {zoom: 1;}
+.attribute-bar div,
+.attribute-bar h2                                     {position: relative;}
+#header #account                                      {width: 300px;}
+#header #head-promo                                   {width: 384px; float: left;}
+#header #head-promo a                                 {margin: 0 auto;}
+#basket-page #source-code input                       {max-width: 70%;}
+#basket-page #source-code input.submit                {max-width: 30%;}
+
+/**** loader styles ****/
+#loader                                               {filter: alpha(opacity=25);}
+
+/* Print Styles */
+@media print {
+.print                                                {display: block !important;}
+}

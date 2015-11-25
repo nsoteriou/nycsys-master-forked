@@ -1,0 +1,109 @@
+/****
+Author: Christian Moist
+Copyright 2009 MCM Electronics
+****/
+
+/**** utility/standard styles ****/
+.fun-form                                             {background-image: none;}
+.fun-form input                                       {margin-bottom: 0;}
+input.submit, input.submit-grn                        {padding: 1px 0;}
+
+/**** layout styles ****/
+.body .header-bg *                                    {position: relative;}
+#header #account #whtbar-right                        {padding-top: 9px;}
+#header #account #whtbar-right .cart-info             {padding-top: 3px;}
+#header #account .cart-contents table                 {margin-bottom: 5px;}
+#header #search-bar                                   {padding-top: 14px; padding-bottom: 14px;}
+#header #search-bar-mini                              {padding-top: 14px; padding-bottom: 14px;}
+
+ul#catalog-menu                                       {padding-left: 4px; padding-right: 0;}
+
+ul#catalog-menu,
+ul#catalog-menu-small                                 {list-style-position: outside;}
+
+ul#catalog-menu,
+ul#catalog-menu-small,
+ul#catalog-menu li,
+ul#catalog-menu-small li,
+ul#catalog-menu li a,
+ul#catalog-menu-small li h2.shop, 
+ul#catalog-menu-small li h2.shop a                    {zoom: 1.0;}
+
+ul#catalog-menu ul li,
+ul#catalog-menu-small ul ul li                        {height: 200px;}
+
+/*catalog-menu-small offsets*/
+ul#catalog-menu-small ul ul#menu_3829449              {top: -108px; width: 600px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+ul#catalog-menu-small ul ul#menu_3829449 li.line-mask {top: 108px;}
+ul#catalog-menu-small ul ul#menu_3829453              {top: -180px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+ul#catalog-menu-small ul ul#menu_3829453 li.line-mask {top: 180px;}
+ul#catalog-menu-small ul ul#menu_3829456              {top: -252px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+ul#catalog-menu-small ul ul#menu_3829456 li.line-mask {top: 252px;}
+ul#catalog-menu-small ul ul#menu_3829457              {top: -288px; width: 600px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+ul#catalog-menu-small ul ul#menu_3829457 li.line-mask {top: 288px;}
+ul#catalog-menu-small ul ul#menu_3829458              {top: -324px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+ul#catalog-menu-small ul ul#menu_3829458 li.line-mask {top: 324px;}
+/*catalog-menu offsets*/                                                      
+ul#catalog-menu ul#menu_3829449                       {top: -149px; width: 600px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+ul#catalog-menu ul#menu_3829449 li.line-mask          {top: 149px;}
+ul#catalog-menu ul#menu_3829453                       {top: -221px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+ul#catalog-menu ul#menu_3829453 li.line-mask          {top: 221px;}
+ul#catalog-menu ul#menu_3829456                       {top: -293px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+ul#catalog-menu ul#menu_3829456 li.line-mask          {top: 293px;}
+ul#catalog-menu ul#menu_3829457                       {top: -329px; width: 600px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+ul#catalog-menu ul#menu_3829457 li.line-mask          {top: 329px;}
+ul#catalog-menu ul#menu_3829458                       {top: -365px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+ul#catalog-menu ul#menu_3829458 li.line-mask          {top: 365px;}
+
+.body #wide-col                                       {width: 719px; overflow: hidden;}
+.result-list tbody td.stocklevel                      {width: 80px;}
+.result-list tbody td.pricing                         {width: 80px;}
+.result-list tbody td.buy                             {width: 80px;}
+#product-page #info-column,
+#product-page #buy-column                             {overflow: hidden;}
+#product-page #add-to-cart #qty-box                   {padding: 0; margin: 0;}
+#product-page input.qty                               {margin: 0; overflow: visible;}
+#product-page #tag-container li                       {margin: 10px 15px 10px 0;}
+#product-page #tag-container li a                     {padding: 5px 0 5px 23px; border: none; background-color: transparent; background-image: none;}
+#account-page .innertube                              {width: 480px; overflow: hidden;}
+#category-page #category-list li                      {width: 157px;}
+#category-page #category-list li h4                   {border: 1px solid #FFF;}
+#category-page #category-list li ul                   {list-style-position: outside;}
+.body #breadcrumbs                                    {position: relative; float: right; padding: 10px 5px 0 0;}
+#footer #footer-head                                  {display: none;}
+#footer #footer-links                                 {padding-top: 7px; position: static; background: transparent url('/images/v4/ie/bar-sprite.gif') no-repeat 0 -174px;}
+#candyContainer li div                                {background: none;}
+
+
+/**** Fix pngs by using png8 instead ****/
+.error                                                {background-image: url('/images/v4/ie/icons/exclamation-frame.png')}
+.confirm                                              {background-image: url('/images/v4/ie/icons/tick-circle-frame.png');}
+.fun-form                                             {background-image: url('/images/v4/ie/forms/fun-form.png');}
+#header #account,
+#header #account #whtbar-right                        {background-image: url('/images/v4/ie/whtbar.png');}
+#header #account .cart-contents-head a, 
+#header #account .cart-info a.cart-description        {background-image: url('/images/v4/ie/icons/cart.png');}
+#header #logo a,
+#header #contact,
+#footer #copyright #pf-logo,
+#footer #business-links a#mcafee,
+#footer #business-links a#verisign,
+#footer #business-links a#bbb                         {background-image: url('/images/v4/ie/template-sprites-v20151102.gif');}
+ul#catalog-menu h2,
+ul#catalog-menu li a,
+ul#catalog-menu ul ul li a,
+ul#catalog-menu-small li h2.shop a,
+ul#catalog-menu-small ul li a,
+ul#catalog-menu-small ul ul li a                      {background-image: url('/images/v4/ie/template-sprites-v20151102.gif');}
+ul#catalog-menu ul,
+ul#catalog-menu ul ul,
+ul#catalog-menu-small ul                              {background-image: url('/images/v4/ie/navbar-bottom.png');}
+/*.body .mini-promo                                     {background-image: url('/images/v4/ie/promo/mini-promo-bg.png');}*/
+.body #email-signup h3,
+.body #email-signup h4                                {background-image: url('/images/v4/ie/template-sprites-v20151102.gif');}
+.body #print-promo  h3,
+.body #print-promo  h4                                {background-image: url('/images/v4/ie/template-sprites-v20151102.gif');}
+.body #quick-buy  h3,
+.body #quick-buy  h4                                  {background-image: url('/images/v4/ie/template-sprites-v20151102.gif');}
+#product-page #tag-container li a                     {background-image: url('/images/v4/ie/icons/magnifier.png');}
+#header #help                                         {background-image: url('/images/v4/ie/template-sprites-v20151102.gif');}
